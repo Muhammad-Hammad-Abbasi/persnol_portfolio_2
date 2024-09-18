@@ -15,7 +15,7 @@ export default function About() {
             width={150}
             height={150}
             alt=""
-            className="rounded-full shadow-lg shadow-black"
+            className="rounded-full"
             />
           
           </div>

@@ -10,7 +10,7 @@ export default function Projectpost() {
         {/*post...............................01*/}
         <div className="shadow-lg  hover:shadow-white transition-shadow duration-500 bg-white rounded-lg 
         animate-flip-up">
-          <div className="rounded-lg justify-items-center p-[20px] w-[200px] md:w-[250px] lg:w-[330px] ">
+          <div className="rounded-lg justify-items-center p-[20px] w-[220px] md:w-[250px] lg:w-[330px] ">
             <Image 
               src={"/portfolio.png"}
               height={300}
@@ -39,7 +39,7 @@ export default function Projectpost() {
         {/*post...............................02*/}
         <div className="shadow-lg  hover:shadow-white transition-shadow duration-500 bg-white rounded-lg animate-flip-up
 ">
-          <div className="rounded-lg justify-items-center p-[20px] w-[200px] md:w-[250px] lg:w-[330px] ">
+          <div className="rounded-lg justify-items-center p-[20px] w-[220px] md:w-[250px] lg:w-[330px] ">
             <Image
               src={"/countdown.png"}
               height={300}
@@ -65,7 +65,7 @@ export default function Projectpost() {
         </div>
         {/*post...............................03*/}
         <div className="shadow-lg  hover:shadow-white transition-shadow duration-500 bg-white rounded-lg animate-flip-up">
-          <div className="rounded-lg justify-items-center p-[20px] w-[200px] md:w-[250px] lg:w-[330px] ">
+          <div className="rounded-lg justify-items-center p-[20px] w-[220px] md:w-[250px] lg:w-[330px] ">
             <Image
               src={"/resume.png"}
               height={300}
@@ -91,7 +91,7 @@ export default function Projectpost() {
         </div>
         {/*post...............................04*/}
         <div className="shadow-lg  hover:shadow-white transition-shadow duration-500 bg-white rounded-lg animate-flip-up">
-          <div className="rounded-lg justify-items-center p-[20px] w-[200px] md:w-[250px] lg:w-[330px] ">
+          <div className="rounded-lg justify-items-center p-[20px] w-[220px] md:w-[250px] lg:w-[330px] ">
             <Image
               src={"/currency.png"}
               height={300}
@@ -117,7 +117,7 @@ export default function Projectpost() {
         </div>
         {/*post...............................05*/}
         <div className="shadow-lg  hover:shadow-white transition-shadow duration-500 bg-white rounded-lg animate-flip-up">
-          <div className="rounded-lg justify-items-center p-[20px] w-[200px] md:w-[250px] lg:w-[330px] ">
+          <div className="rounded-lg justify-items-center p-[20px] w-[220px] md:w-[250px] lg:w-[330px] ">
             <Image
               src={"/todos.png"}
               height={300}
@@ -143,7 +143,7 @@ export default function Projectpost() {
         </div>
         {/*post...............................06*/}
         <div className="shadow-lg  hover:shadow-white transition-shadow duration-500 bg-white rounded-lg animate-flip-up">
-          <div className="rounded-lg justify-items-center p-[20px] w-[200px] md:w-[250px] lg:w-[330px]">
+          <div className="rounded-lg justify-items-center p-[20px] w-[220px] md:w-[250px] lg:w-[330px]">
             <Image
               src={"/word.png"}
               height={300}

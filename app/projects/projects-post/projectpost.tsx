@@ -78,7 +78,7 @@ export default function Projectpost() {
             <div>
 
               <h1 className="font-bold p-[10px] text-xl ">Unique Path and Shareable Link.</h1>
-              <p className="pb-[40px] px-[10px]">Check out my latest resume! Its hosted on a unique path, making it easily shareable...</p>
+              <p className="pb-[40px] px-[10px]">Check out my latest resume. Its hosted on a unique path, making it easily shareable...</p>
             </div>
             <div className="p-[8px] pt-[15px]">
               <div className="text-center bg-black text-white hover:bg-[#270d0d]/10 hover:text-black rounded-lg p-[6px] transition-colors ">

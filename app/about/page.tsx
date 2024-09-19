@@ -8,8 +8,8 @@ export default function About() {
           <h1 className="text-center font-extrabold text-[25px] md:text-[30px] lg:text-[40px]">About Me</h1>
         </div>
       </div>
-      <div className="flex justify-center pt-[60px] ">
-          <div className="max-w-full bg- bg-neutral-500 w-[500px] h-[300px] flex justify-center items-center rounded-3xl animate-flip-up sm:animate-flip-up">
+      <div className="flex justify-center pt-[60px] px-[30px] md:px-[40px]">
+          <div className="max-w-full bg- bg-neutral-500 w-[300px] md:w-[400px] lg:w-[500px] h-[300px] flex justify-center items-center rounded-3xl animate-flip-up sm:animate-flip-up">
             <Image
             src={"/img.png"}
             width={150}

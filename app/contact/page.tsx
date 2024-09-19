@@ -11,9 +11,9 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center px-[30px] md:px-[40px] lg:px-[50px]">
         <form className="w-full max-w-lg bg-neutral-500 p-8 rounded-lg shadow-md shadow-black">
-          <div className="flex justify-center pb-[30px]">
+          <div className="flex justify-center pb-[30px] ">
          <Image
          src={"/img.png"}
          height={200}

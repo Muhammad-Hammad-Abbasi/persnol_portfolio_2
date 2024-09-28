@@ -23,10 +23,12 @@ export default function Contact() {
          
          />
 
-         </div> 
-         <div className="text-center bg-black text-white hover:bg-[#270d0d]/10 hover:text-black rounded-lg p-[6px] transition-colors">
-             <Link href="mailto:hammadabbasi102030@gmail.com"><button>Send Email</button></Link>
          </div>
+         <Link href="mailto:hammadabbasi102030@gmail.com"> 
+         <div className="text-center bg-black text-white hover:bg-[#270d0d]/10 hover:text-black rounded-lg p-[6px] transition-colors">
+             <button>Send Email</button>
+         </div>
+         </Link>
         </form>
       </div>
     </div>

@@ -65,7 +65,7 @@ export default function Header() {
 
 
       {isOpen &&
-        <div className="block md:block lg:hidden">
+        <div className="block md:block lg:hidden mb-5">
           <nav className="flex items-center flex-col justify-center px-2 text-md font-mono">
             <ul className=" space-y-6 ">
               <button><FaTimes size={24} /></button>

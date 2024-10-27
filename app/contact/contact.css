@@ -1,0 +1,55 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+ 
+.icons-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  width: 200px; 
+  height: 200px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotate 15s linear infinite; 
+}
+
+@keyframes rotate {
+  0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+:root {
+  --translate-distance: 120px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --translate-distance: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --translate-distance: 200px;
+  }
+}
+
+.contact-page {
+  position: relative;
+}
+
+.icon {
+  transform-origin: center center;
+}
+
+

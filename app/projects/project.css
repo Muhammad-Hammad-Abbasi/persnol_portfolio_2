@@ -1,0 +1,47 @@
+
+.marquee-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #916e80;
+    border-radius: 8px;
+    background-color: #292323;
+    box-shadow: 0 5px 5px #916e80;
+    transition: transform 0.3s;
+    height: 300px;
+    min-width: 200px;
+}
+
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #a0758b;
+}
+
+.project-card p {
+    text-align: center;
+    color: #666;
+    flex-grow: 1;
+}

@@ -1,28 +1,109 @@
+'use client'
+
 import Link from "next/link";
-import Image from "next/image";
+import { useState } from "react";
+import { FaAlignRight, FaHome, FaProjectDiagram, FaReact, FaTimes } from "react-icons/fa";
+import { IoMdContacts } from "react-icons/io";
+import { MdRoundaboutRight } from "react-icons/md";
 
 export default function Header() {
+
+
+  const [isOpen, setState] = useState(false)
+
+  const toggleButton = () => {
+    setState(!isOpen)
+
+  }
+
   return (
-    <div className="m-2 ">
-      <div className="flex items-center justify-between space-x-4 py-2 px-3 bg-gray-300 rounded-full font-bold shadow-lg shadow-[#fdfdfdea]">
-       
-        <Link href="/" className="pl-2">
-          <Image
-            src="/img.png"
-            height={30}
-            width={30} 
-            alt="Main"
-            className="rounded-full shadow-md shadow-black transition-transform transform hover:scale-105"
-          />
-        </Link>
-        
-        <nav className="space-x-4 px-2 text-sm md:text-lg">
-          <Link href="/projects" className=" hover:bg-white shadow-md shadow-[#000] rounded-full px-1 ">Projects</Link>
-          <Link href="/about" className=" hover:bg-white shadow-md shadow-black rounded-full px-1 ">About</Link>
-          <Link href="/contact" className=" hover:bg-white shadow-md shadow-black rounded-full px-1 ">Contact</Link>
+    <div className=" ">
+
+      <div className="flex justify-between p-5">
+        <FaReact size={24} className="text-[#df0d76] animate-slow-spin block lg:hidden md:hidden " />
+        <button onClick={toggleButton} className="block md:hidden lg:hidden">{isOpen ? <FaTimes size={24} className="text-[#916e80]" /> : <FaAlignRight size={24} className="text-[#916e80]" />}</button>
+      </div>
+
+
+      {/* Large screen */}
+      <div className="py-8 hidden md:block lg:block">
+        <nav className="flex items-center justify-center px-2 text-sm md:text-lg lg:xl font-mono space-x-20 ">
+
+          <Link href="/" className="flex text-[#916e80]">
+            <FaHome size={26} className="text-[#df0d76] mx-2" />
+            <li className="list-none hover:underline">
+              Home
+            </li>
+          </Link>
+
+          <Link href="/projects" className="flex text-[#916e80] ">
+          <FaProjectDiagram size={24} className="text-[#df0d76] mx-2" />
+          <li className="list-none hover:underline">
+            Projects
+          </li>
+          </Link>
+
+          <Link href="/about" className="flex text-[#916e80]">
+            <MdRoundaboutRight size={24} className="text-[#df0d76] mx-2" />
+            <li className="list-none hover:underline">
+            About
+          </li>
+          </Link>
+
+          <Link href="/contact" className="flex text-[#916e80] ">
+          
+            <IoMdContacts size={24} className="text-[#df0d76] mx-2" />
+            <li className="list-none hover:underline">
+            Contact
+          </li>
+          </Link>
         </nav>
       </div>
+
+
+      {/* moblie screen */}
+
+
+      {isOpen &&
+        <div className="block md:block lg:hidden">
+          <nav className="flex items-center flex-col justify-center px-2 text-md font-mono">
+            <ul className=" space-y-6 ">
+              <button><FaTimes size={24} /></button>
+              <li className="flex gap-2">
+                <FaHome size={26} className="text-[#df0d76]" />
+                <Link href="/" onClick={toggleButton} className="text-[#916e80] hover:underline">Home</Link>
+              </li>
+              <li className="flex gap-2">
+                <FaProjectDiagram size={24} className="text-[#df0d76]" />
+                <Link href="/projects" onClick={toggleButton} className="text-[#916e80] hover:underline">Projects</Link>
+              </li>
+              <li className="flex gap-1">
+                <MdRoundaboutRight size={24} onClick={toggleButton} className="text-[#df0d76]" />
+                <Link href="/about" className="text-[#916e80] hover:underline">About</Link>
+              </li>
+              <li className="flex gap-2">
+                <IoMdContacts size={24} className="text-[#df0d76]" />
+                <Link href="/contact" onClick={toggleButton} className="text-[#916e80] hover:underline">Contact</Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 }
-    

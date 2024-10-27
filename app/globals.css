@@ -2,17 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  background: #a7a5a5;
-  
+:root{
+  background: #000
 }
 
-@keyframes flip-up {
-  0% {
-    height: 0;
+@layer utilities {
+  .text-3d {
+    @apply relative font-bold uppercase; 
+    text-shadow: 
+      2px 2px 0 #000,
+      4px 4px 0 #000,
+      6px 6px 0 #000,
+      8px 8px 0 #000000;
+    animation: shine 5s infinite;
   }
 
-  100% {
-    height: 100%;
+  @keyframes shine {
+    30% {
+      text-shadow: 
+        2px 2px 0 #000,
+        4px 4px 0 #000,
+        6px 6px 0 #df0d76,
+        8px 8px 0 #000,
+        0 0 10px rgba(189, 91, 164, 0.979);
+    }
+    50% {
+      text-shadow: 
+        2px 2px 0 #000,
+        4px 4px 0 #000,
+        6px 6px 0 #df0d76,
+        8px 8px 0 #000,
+        0 0 30px rgba(197, 117, 177, 0.979);
+    }
+    100% {
+      text-shadow: 
+        2px 2px 0 #000,
+        4px 4px 0 #000,
+        6px 6px 0 #df0d76,
+        8px 8px 0 #000,
+        0 0 15px rgba(189, 91, 164, 0.979);
+    }
   }
 }
+

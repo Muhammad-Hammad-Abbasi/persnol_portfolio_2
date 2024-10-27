@@ -1,17 +1,20 @@
-import About from "./about/page";
+
 import Contact from "./contact/page";
 import Projects from "./projects/page";
-import Style from "./style/style";
+import About from "./about/page";
 
 export default function Home() {
   return (
     <div>
-       <Style/>
-       <div className="pt-[100px]">
-       <Projects/>
-       </div>
-        <About/>
-        <Contact/>
+
+      <div className=" text-center">
+        <h1 className="text-[45px] md:text-[100px] lg:text-[150px] text-center font-serif my-20 text-3d">portfolio</h1>
+      </div>
+      <About />
+      <div className="pt-[100px]">
+        <Projects />
+      </div>
+      <Contact />
     </div>
   )
 };

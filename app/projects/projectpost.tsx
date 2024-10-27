@@ -42,7 +42,7 @@ const ProjectCards: React.FC = () => {
        
       <div className="flex justify-center text-lg font-semibold py-10">
       <Link href={"https://github.com/Muhammad-Hammad-Abbasi"}>
-      <button className="flex text-center text-[#916e80] hover:text-[#e06ba6]"><FaGithub size={20} className=" m-1" />Visit GitHub<GoArrowRight className=" m-2"  /></button>
+      <button className="flex text-center text-[#916e80] hover:text-[#e06ba6]"><FaGithub size={20} className=" m-1" />View GitHub<GoArrowRight className=" m-2"  /></button>
       </Link>
       </div>
      

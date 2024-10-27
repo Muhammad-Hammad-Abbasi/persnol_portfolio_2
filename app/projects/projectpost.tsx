@@ -5,6 +5,7 @@ import { projects } from "./projectsdata";
 import Marquee from "react-marquee-slider";
 import './project.css';
 import Link from "next/link";
+import Image from "next/image";
 import { GoArrowRight } from "react-icons/go";
 import { FaGithub } from "react-icons/fa";
 
@@ -25,7 +26,7 @@ const ProjectCards: React.FC = () => {
           {projects.map((project) => (
             <div className="project-card w-[300px] md:w-[450px] lg:w-[450px] font-serif font-bold" key={project.id}>
               <Link href={project.link} target="_blank" rel="noopener noreferrer">
-                <img src={project.image}
+                <Image src={project.image}
                   alt={project.name}
                   width={200}
                   height={150}

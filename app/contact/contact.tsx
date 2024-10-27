@@ -16,7 +16,7 @@ const ContactPage = () => {
 
   return (
     <div className="contact-page flex flex-col items-center relative h-screen justify-center">
-      <Image src="/portfolio2-my-img.jpg" height={180} width={180} alt="My Image" className="w-[180px] h-[180px] lg:w-[200px] lg:h-[200px] rounded-full" />
+      <Image src="/portfolio2-my-img.jpg" height={180} width={180} alt="My Image" className="w-[180px] h-[180px] lg:w-[250px] lg:h-[250px] rounded-full shadow-lg shadow-[#916e80]" />
       
       <div className="icons-container absolute inset-0 flex items-center justify-center">
         {socialIcons.map((icon, index) => (
@@ -24,7 +24,7 @@ const ContactPage = () => {
             href={icon.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="icon absolute text-[#916e80] "
+            className="icon absolute text-[#916e80] hover:text-[#c2588d] "
             style={{
               transform: `rotate(${index * (360 / socialIcons.length)}deg) translate(calc(var(--translate-distance, 120px)))`,
             }}

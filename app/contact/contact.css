@@ -29,7 +29,7 @@
 }
 
 :root {
-  --translate-distance: 120px;
+  --translate-distance: 140px;
 }
 
 @media (min-width: 768px) {

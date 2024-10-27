@@ -16,7 +16,7 @@ const ContactPage = () => {
 
   return (
     <div className="contact-page flex flex-col items-center relative h-screen justify-center">
-      <Image src="/portfolio2-my-img.jpg" height={150} width={130} alt="My Image" className="w-[130px] h-[150px] lg:w-[200px] lg:h-[200px] rounded-full" />
+      <Image src="/portfolio2-my-img.jpg" height={150} width={150} alt="My Image" className="w-[150px] h-[150px] lg:w-[200px] lg:h-[200px] rounded-full" />
       
       <div className="icons-container absolute inset-0 flex items-center justify-center">
         {socialIcons.map((icon, index) => (

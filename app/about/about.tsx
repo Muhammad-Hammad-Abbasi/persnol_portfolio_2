@@ -8,7 +8,7 @@ export default function Main_Page() {
         {/* About Us Section */}
         <div className="flex flex-col text-[#916e80] p-4 bg-[#292323] rounded-md mt-10 md:w-[500px] lg:w-[700px]" data-aos="zoom-in-down">
           <h1 className="text-center text-4xl font-semibold animate-shine py-5">ABOUT US</h1>
-          <h2 className="text-center text-2xl lg:text-3xl font-bold font-serif text-[#dd7cac] p-5">I&#39;m Muhammad Hammad </h2>
+          <h2 className="text-center text-2xl lg:text-3xl font-bold font-serif text-[#916e80] p-5">I&#39;m Muhammad Hammad </h2>
           <h2 className=" text-2xl">
             Passionate Web Developer
           </h2>

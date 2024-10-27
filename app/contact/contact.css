@@ -2,21 +2,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
+
 }
 
- 
+
 .icons-container {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
-  width: 200px; 
-  height: 200px; 
+  transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: rotate 15s linear infinite; 
+  animation: rotate 15s linear infinite;
+}
+
+.img{
+  border: 2px solid #916e80;
 }
 
 @keyframes rotate {
@@ -29,7 +31,7 @@
 }
 
 :root {
-  --translate-distance: 140px;
+  --translate-distance: 130px; 
 }
 
 @media (min-width: 768px) {
@@ -44,12 +46,6 @@
   }
 }
 
-.contact-page {
-  position: relative;
-}
-
 .icon {
   transform-origin: center center;
 }
-
-

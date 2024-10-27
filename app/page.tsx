@@ -14,7 +14,6 @@ export default function Home() {
       <div className="pt-[100px]">
         <Projects />
       </div>
-      <Contact />
     </div>
   )
 };

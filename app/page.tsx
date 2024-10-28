@@ -1,6 +1,7 @@
 
 import Projects from "./projects/page";
 import About from "./about/page";
+import ContactPage from "./contact/page";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
       <div className="pt-[100px]">
         <Projects />
       </div>
+      <ContactPage />
     </div>
+
   )
 };

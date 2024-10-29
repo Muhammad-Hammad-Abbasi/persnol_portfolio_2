@@ -20,7 +20,7 @@ export default function Aos_Animation() {
             width={250}
             height={250}
             alt="my-image"
-            className="rounded-full shadow-xl shadow-[#916e80] "
+            className="rounded-full border border-[#916e80] shadow-xl shadow-[#916e80] "
           />
     </div>
   );

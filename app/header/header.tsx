@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { FaAlignRight, FaHome, FaProjectDiagram, FaReact, FaTimes } from "react-icons/fa";
+import { FaAlignRight, FaHome, FaProjectDiagram, FaTimes } from "react-icons/fa";
 import { IoMdContacts } from "react-icons/io";
 import { MdRoundaboutRight } from "react-icons/md";
+import { SiHackster } from "react-icons/si";
 
 export default function Header() {
 
@@ -20,7 +21,7 @@ export default function Header() {
     <div className=" ">
 
       <div className="flex justify-between p-5">
-        <FaReact size={24} className="text-[#df0d76] animate-slow-spin block lg:hidden md:hidden " />
+        <SiHackster size={30} className="text-[#df0d76] block lg:hidden md:hidden " />
         <button onClick={toggleButton} className="block md:hidden lg:hidden">{isOpen ? <FaTimes size={24} className="text-[#916e80]" /> : <FaAlignRight size={24} className="text-[#916e80]" />}</button>
       </div>
 
@@ -90,20 +91,6 @@ export default function Header() {
         </div>
 
       }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
   );
-}
+};

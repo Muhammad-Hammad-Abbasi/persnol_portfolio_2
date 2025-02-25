@@ -11,18 +11,18 @@ export const projects: Project[] = [
     },
     {
         id: 2,
-        name: "CountDown Timer",
-        description: "A simple countdown timer for events.",
-        image: "/countdown.png",
-        link: "https://project-day1.vercel.app/"
+        name: "Furniro Tawny",
+        description: "A simple furniro website with custum css.",
+        image: "/figma-img.png",
+        link: "https://furniro-tawny.vercel.app/"
         
     },
     {
         id: 3,
-        name: "Custom css Portfolio",
-        description: "A portfolio demonstrating custom CSS skills.",
-        image: "/customcss-img.png",
-        link: "https://custom-css-portfolio.vercel.app/"
+        name: "E-commerce website",
+        description: "We know how large objects will act,",
+        image: "/e-com.png",
+        link: "https://next-js-hackathon-hammad.vercel.app/"
     },
     {
         id: 4,
@@ -33,16 +33,23 @@ export const projects: Project[] = [
     },
     {
         id: 5,
-        name: "The Periodic Table",
-        description: "An interactive periodic table project.",
-        image: "/periodic-img.png",
-        link: "https://periodic-table-green-tau.vercel.app/"
+        name: "The Dynamic Blogs",
+        description: "Your Hub for Tech Innovation and Trends.",
+        image: "/blog.png",
+        link: "https://milestone-03-dynamic-blogs.vercel.app/"
     },
     {
         id: 6,
         name: "Portfolio",
         description: "A personal portfolio showcasing various projects.",
         image: "/portfolio.png",
-        link: "https://personal-portfolio-ecru-nu.vercel.app/"
+        link: "https://my-persnol-portfolio.vercel.app/"
+    },
+    {
+        id: 7,
+        name: "Resume Builder",
+        description: "A Unique Path and Shareable Link.",
+        image: "/resume.png",
+        link: "https://milestone05-puce.vercel.app/"
     },
 ];

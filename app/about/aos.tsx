@@ -16,11 +16,11 @@ export default function Aos_Animation() {
   return (
     <div data-aos="zoom-in-down">
        <Image
-            src={"/portfolio2-my-img.jpg"}
+            src={"/abc.jpg"}
             width={250}
             height={250}
             alt="my-image"
-            className="rounded-full border border-[#916e80] shadow-xl shadow-[#916e80] "
+            className="rounded-full border border-[#D6BE8D] shadow-xl shadow-[#D6BE8D] "
           />
     </div>
   );

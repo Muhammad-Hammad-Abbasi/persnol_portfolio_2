@@ -12,10 +12,10 @@
     justify-content: space-between; 
     margin: 10px;
     padding: 20px;
-    border: 1px solid #916e80;
+    border: 1px solid #373737;
     border-radius: 8px;
-    background-color: #292323;
-    box-shadow: 0 5px 5px #916e80;
+    background-color: #1f1a1a;
+    box-shadow: 0 5px 5px #141414;
     transition: transform 0.3s;
     height: 300px;
     min-width: 200px;
@@ -37,11 +37,12 @@
     margin: 10px 0 5px;
     font-size: 1.5rem;
     text-align: center;
-    color: #a0758b;
+    color: #D6BE8D;
+    
 }
 
 .project-card p {
     text-align: center;
-    color: #666;
+    color: #ad9b76;
     flex-grow: 1;
 }

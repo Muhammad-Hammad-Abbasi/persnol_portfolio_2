@@ -12,7 +12,7 @@ import { FaGithub } from "react-icons/fa";
 const ProjectCards: React.FC = () => {
   return (
     <main>
-      <h1 className="text-center font-extrabold text-5xl mb-10 my-5 text-[#916e80] text-3d">PROJECTS</h1>
+      <h1 className="text-center font-extrabold text-5xl mb-10 my-5 text-[#D6BE8D] text-3d">PROJECTS</h1>
       <div className="marquee-container">
 
         <Marquee
@@ -42,10 +42,9 @@ const ProjectCards: React.FC = () => {
        
       <div className="flex justify-center text-lg font-semibold py-10">
       <Link href={"https://github.com/Muhammad-Hammad-Abbasi"}>
-      <button className="flex text-center text-[#916e80] hover:text-[#e06ba6]"><FaGithub size={20} className=" m-1" />View GitHub<GoArrowRight className=" m-2"  /></button>
+      <button className="flex text-center text-[#695b4e] hover:text-[#dfcdbc]"><FaGithub size={20} className=" m-1" />View GitHub<GoArrowRight className=" m-2"  /></button>
       </Link>
       </div>
-     
 
     </main>
   );

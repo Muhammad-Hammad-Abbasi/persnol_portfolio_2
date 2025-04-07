@@ -36,9 +36,9 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="flex flex-col gap-10 text-[#916e80] justify-center items-center  bg-[#1f1a1a] py-20  border-y-4 border-[#c2588d]">
+    <div className="flex flex-col gap-10 text-[#D6BE8D] justify-center items-center  bg-[#1f1a1a] py-20  border-y-8 border-[#695b4e]">
       <h2 className="text-center text-4xl font-semibold animate-shine py-5">CONTACT US</h2>
-      <form onSubmit={handleSubmit} className="flex flex-col justify-center gap-5 w-[300px] md:w-[350px] lg:w-[450px] h-[270px] bg-[#383030] px-3 rounded-md">
+      <form onSubmit={handleSubmit} className="flex flex-col justify-center gap-5 w-[300px] md:w-[350px] lg:w-[450px] h-[370px] bg-[#292323] px-6 py-10 rounded-md">
 
         <input
           type="text"
@@ -69,15 +69,14 @@ export default function ContactPage() {
         ></textarea>
         <button
           type="submit"
-          className="border border-[#c2588d] text-[#c2588d] py-1 rounded-md transition-colors duration-1000 hover:text-white hover:border-[#916e80] hover:bg-[#745062] font-serif"
+          className="border border-[#D6BE8D] text-[#D6BE8D] py-1 rounded-md transition-colors duration-1000 hover:text-[#695b4e] hover:border-[#695b4e] hover:bg-[#D6BE8D] font-serif"
         >
           Send Message
         </button>
 
-
       </form>
 
-      {status && <p className="text-[#916e80]">{status}</p>}
+      {status && <p className="text-[#D6BE8D]">{status}</p>}
     </div>
   );
 }

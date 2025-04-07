@@ -19,7 +19,7 @@ export async function POST(req: Request) {
       to: process.env.EMAIL_USER,
       subject: `New message from ${name}`,
       text: message,
-      html: `<p>You have a new message from <strong>${name}</strong> (${email}):</p><p>${message}</p>`,
+      html: `<p>You have a new message from <strong>${name}</strong>(${email}):</p><p>${message}</p>`,
     });
 
     return NextResponse.json({ success: true });

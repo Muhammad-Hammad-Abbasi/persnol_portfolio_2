@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  background: #000
+:root {
+  background: linear-gradient(135deg, #D6BE8D, #BFA67A );
+
 }
 
 *{
@@ -32,26 +33,26 @@ body {
     30% {
       text-shadow: 
         2px 2px 0 #000,
-        4px 4px 0 #000,
-        6px 6px 0 #df0d76,
+        4px 4px 0 #e5bf4c,
+        6px 6px 0 #8b7d7d,
         8px 8px 0 #000,
-        0 0 10px rgba(189, 91, 164, 0.979);
+        0 0 10px #bc9a35;
     }
     50% {
       text-shadow: 
         2px 2px 0 #000,
-        4px 4px 0 #000,
-        6px 6px 0 #df0d76,
+        4px 4px 0 #e5bf4c,
+        6px 6px 0 #8b7d7d,
         8px 8px 0 #000,
-        0 0 30px rgba(197, 117, 177, 0.979);
+        0 0 30px #bc9a35;
     }
     100% {
       text-shadow: 
         2px 2px 0 #000,
-        4px 4px 0 #000,
-        6px 6px 0 #df0d76,
+        4px 4px 0 #e5bf4c,
+        6px 6px 0 #8b7d7d,
         8px 8px 0 #000,
-        0 0 15px rgba(189, 91, 164, 0.979);
+        0 0 15px #bc9a35;
     }
   }
 }
